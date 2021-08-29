@@ -12,7 +12,9 @@ const AddTask = ({ onAdd }) => {
       alert('Please add a task');
       return;
     }
+    // adding the 3 values to the state
     onAdd({ text, day, reminder });
+    // resetting the form
     setText('');
     setDay('');
     setReminder(false);

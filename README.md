@@ -1,2 +1,1 @@
-# react-task-tracker
-React application to handle tasks using Router
+Task Tracker is a React application to handle tasks with functional components (hooks) using Router functionality.
